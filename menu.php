@@ -1,0 +1,1 @@
+<div id="menu"><button class="btn" onclick="window.location.href='register.php'">Register</button> <button class="btn" onclick="window.location.href='users.php'">User List</button></div>

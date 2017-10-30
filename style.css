@@ -1,0 +1,140 @@
+body
+{
+	font-family:Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	background-color: #6699ff;
+	margin: 0px;
+}
+
+#menu
+{
+	outline: 10px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out 0s;
+	margin:0 auto;
+	text-align: center;
+	background-color:white;
+	margin-top:30px;
+	padding: 10px;
+
+}
+
+.btn
+{
+	background: #3498db;
+	background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+	background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+	background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+	background-image: -o-linear-gradient(top, #3498db, #2980b9);
+	background-image: linear-gradient(to bottom, #3498db, #2980b9);
+	-webkit-border-radius: 15;
+	-moz-border-radius: 15;
+	border-radius: 15px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	border: solid #1f628d 0px;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.btn:hover
+{
+	background: #3cb0fd;
+	background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+	text-decoration: none;
+}
+
+table, th, td {
+	border: 1px solid white;
+}
+
+th
+{
+	background-color: black;
+	color: white;
+	font-weight: normal;
+	text-align: left;
+}
+
+h2
+{
+	margin: 5px 10px;
+	color: #3498db;
+}
+
+.blue
+{
+	color: #3498db;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+input, select
+{
+	padding: 6px;
+	font-size: 1.0em;
+	color: #3498db;
+}
+
+#container-div
+{
+	outline: 10px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out 0s;
+	width: 570px;
+
+	background-color: #f7f7f7;
+	display: block;
+	margin: 0 auto;
+	padding: 10px ;
+	margin-top: 30px;
+}
+
+#container-div-wide
+{
+	outline: 10px solid rgba(0, 0, 0, 0.1);
+	transition: all 0.2s ease-in-out 0s;
+	width: 1000px;
+
+	background-color: #f7f7f7;
+	display: block;
+	margin: 0 auto;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.row_one
+{
+	background-color: rgba(0, 0, 200, 0.1);
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.row_two
+{
+	background-color: rgba(0, 0, 200, 0.2); 
+	transition: all 0.2s ease-in-out 0s;
+}
+
+.row_one:hover, .row_two:hover
+{
+	background-color: rgba(0, 0, 200, 0.4); 
+}
+
+#container-div:hover, #container-div-wide:hover, #menu:hover
+{
+	outline: 10px solid rgba(0, 0, 200, 0.4);
+	transition: all 0.2s ease-in-out 0s;
+}
+
+#registerform label.error, #registerform input.submit 
+{
+	margin-left: 10px;
+	color: red;
+}
