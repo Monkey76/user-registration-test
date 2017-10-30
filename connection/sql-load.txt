@@ -1,0 +1,40 @@
+-- phpMyAdmin SQL Dump
+-- version 2.11.11.3
+-- http://www.phpmyadmin.net
+--
+-- Host: 45.40.164.65
+-- Generation Time: Oct 30, 2017 at 08:33 AM
+-- Server version: 5.5.51
+-- PHP Version: 5.1.6
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `userRegistration`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `USERS`
+--
+
+CREATE TABLE `USERS` (
+  `userID` int(11) NOT NULL AUTO_INCREMENT,
+  `userFirstName` text NOT NULL,
+  `userLastName` text NOT NULL,
+  `userAddress1` text NOT NULL,
+  `userAddress2` text NOT NULL,
+  `userCity` text NOT NULL,
+  `userState` text NOT NULL,
+  `userZip` text NOT NULL,
+  `userCountry` text NOT NULL,
+  `userRegister_date` datetime NOT NULL,
+  PRIMARY KEY (`userID`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=27 ;
+
+--
+-- Dumping data for table `USERS`
+--
+
+INSERT INTO `USERS` VALUES(26, 'Joshua', 'Thorndycraft', '10184 Sam Ridge CT', '', 'Goodrich', 'Michigan', '48438', 'US', '2017-10-30 11:15:01');
